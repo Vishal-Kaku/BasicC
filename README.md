@@ -1,2 +1,3 @@
-# BasicC
-basic c programs practice
+# Basic C Programs
+C Practice
+
