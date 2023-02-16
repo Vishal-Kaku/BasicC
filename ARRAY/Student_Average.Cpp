@@ -12,7 +12,7 @@ void getAverage(int studentNumber,int n){
     }
     printf("Sum Is =  %.f \n", sum );
     avg = sum / n;
-    printf("Average marsk of %s are = %.1f \n", m  , avg );
+    printf("Average marks of %s are = %.1f \n", m  , avg );
 }
 int main(){
     int n,subjectsNumber;
