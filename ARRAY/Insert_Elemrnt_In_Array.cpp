@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int a[10];
-    int n,temp=0,i,insertindex,num;
+    int n,i,insertindex,num;
     printf("Enter The Number Of Elements = ");
     scanf("%d",&n);
     for(i=0;i<n;i++){
