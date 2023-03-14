@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+    int i,n,temp=0,rem;
+    printf("Enter Your Number To Check PRIME = ");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++){
+        rem = n%i;
+        if (rem == 0)
+        temp++;
+    }
+    if (temp == 2)
+    printf("Number Is PRIME");
+    else
+    printf("Number Is  Not PRIME");
+        return 0;
+}
